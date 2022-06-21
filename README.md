@@ -1,8 +1,20 @@
 ### Getting started 
 
-1. create a virtual environment `python3 -m venv .venv`
-2. activate the virtual environment `source .venv/bin/activate`
-3. install dependencies `pip install <package>`
-4. deactivate the virtual environment `deactivate`
+Create a virtual environment
 
+```bash
+python3 -m venv .venv
+```
+
+Activate the virtual environment
+
+```bash
+source .venv/bin/activate
+```
+
+Install dependencies
+
+```bash
+pip3 install -r requirements.txt
+```
 
